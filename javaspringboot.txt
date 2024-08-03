@@ -1,0 +1,14 @@
+@SpringBootApplication
+@RestController
+public class SpringBootProjectApplication {
+
+@GetMapping("/msg")
+public String show() {
+return "Hello sid";
+}
+
+public static void main(String[] args) {
+SpringApplication.run(SpringBootProjectApplication.class, args);
+}
+
+}
